@@ -39,3 +39,45 @@ font-weight:300;
   width: 5%;
   left: 59%;
 }
+
+
+@media only screen and (max-width: 480px) {
+
+  #eyes{
+    position: absolute;
+    width: 11%;
+    left: 25%;
+   
+    border-shadow: 3px 3px black;
+  }
+  
+
+  #eyes2{
+    position: absolute;
+    width: 11%;
+    left: 65%;
+  }
+
+
+  #JP{
+    position: absolute;
+    left: 39%;
+    top:19%;
+    
+    font-size: 4vw;
+    
+    }
+
+    #img{
+      cursor: pointer;
+      position: fixed;
+      top: 1%;
+      left: 2%;
+      z-index: 1;
+      width: 9%
+      
+    
+    }
+    
+  
+}
